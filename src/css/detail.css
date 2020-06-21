@@ -1,0 +1,129 @@
+.container{
+    width:100%;
+    margin-block-start: 5vw;
+    background: #f3f4f5;
+}
+.box {
+    width: 93%;
+    position: relative;
+    padding: 5vw 3.25% 5vw;
+    background: #f3f4f5;
+}
+.detail-left{
+    text-align: left;
+    background: #f3f4f5;
+    width: 60%;
+    position: relative;
+    margin-top: -3vw;
+}
+.img-wrap{
+    border-radius: 8px;
+    background: white;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 20vw;
+    line-height: 10vw;
+}
+.img-wrap h1{
+    font-size: 1.5vw;
+    margin: 5% 5% 0;
+}
+.img-wrap img{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+}
+.detail-right{
+    right: 5vw;
+    top: 5vw;
+    white-space: normal;
+    position: absolute;
+    text-align: left;
+    width: 30%;
+}
+.right-wrap{
+    border-radius: 8px;
+    background: white;
+    padding: 2vw;
+}
+.detailbtn button{
+    width: 100%;
+    height: 3vw;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    border-radius: 8px;
+}
+.detailbtn .collect{
+    font-size: 1vw;
+    margin-left: 0;
+}
+.details{
+    font-size: 1vw;
+    background: #f3f4f5;
+    margin-top: 1.5vw;
+    padding: 1.2vw;
+    line-height: 1.5vw;
+}
+.details h3{
+    font-size: 1.2vw;
+    margin-bottom: 1.5vw;
+}
+.details label{
+    width: 100%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@media (max-aspect-ratio: 6/5){
+    .detail-left{
+        width: 100%;
+    }
+    .img-wrap{
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+    }
+    .img-wrap h1{
+        font-size: 4vw;
+        padding-top: 3vw;
+    }
+    .img-wrap img{
+
+    }
+    .detail-right{
+        position: initial;
+        width: 100%;
+    }
+    .right-wrap{
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+    .detailbtn button{
+        width: 30%;
+        height: 7vw;
+        margin-left: 4%;
+        font-size: 4vw;
+    }
+    .detailbtn .collect{
+        font-size: 3vw;
+        margin-left: 0;
+    }
+    .details{
+        width: 90%;
+        margin-left: 4%;
+        font-size: 4vw;
+        line-height: inherit;
+        padding: 2vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .details h3{
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+}

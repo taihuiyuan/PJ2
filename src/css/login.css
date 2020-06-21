@@ -1,0 +1,122 @@
+.content {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:-10;
+    width:100%;
+    height:100%;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.logGet{
+    height: 60%;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+@media (max-width: 980px) {
+    .logGet{
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .logGet{
+        width: 80%;
+    }
+}
+@media (max-height: 1024px) and (max-width: 600px){
+    .logGet{
+        margin-top: 10%;
+    }
+}
+@media (max-height: 850px) and (max-width: 600px){
+    .logGet{
+        margin-top: 5%;
+    }
+}
+form{
+    height: auto;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logGet .log-head{
+    width: 86%;
+    border-bottom: 1px solid #2e2f34;
+    margin: 0 auto 5%;
+}
+.log-head .p1{
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 8%;
+    width: 86%;
+}
+.log-content{
+    width: 86%;
+    position: relative;
+    margin: 2% auto;
+}
+.log-content .p2{
+    display: inline-block;
+    font-size: 1vw;
+    margin-top: 0;
+    width: 86%;
+}
+.log-content input {
+    width: 100%;
+    height: 2.7vw;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+}
+.log-foot{
+    width: 86%;
+    margin: 5% auto;
+}
+.log-foot input{
+    width: 100%;
+    height: 3vw;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    margin-top: 5%;
+    border-radius: 4px;
+}
+.log-foot .p3{
+    padding-bottom: 3vw;
+    padding-top: 1vw;
+}
+@media (max-aspect-ratio: 6/5){
+    .logGet{
+        height: 50%;
+        margin-top: 20%;
+    }
+    .log-head .p1{
+        font-size: 5vw;
+        margin-top: 15%;
+    }
+    .log-content input {
+
+    }
+    .log-content .p2{
+        font-size: 3vw;
+    }
+    .log-content input {
+        height: 5vw;
+    }
+    .log-foot input{
+        height: 6vw;
+        font-size: 3vw;
+    }
+    .log-foot .p3{
+        font-size: 3vw;
+    }
+}
